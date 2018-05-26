@@ -6,7 +6,7 @@
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
     "test": "jest",
-    "bt": "npm build && npm test"
+    "bt": "npm run build && npm run test"
   },
   "keywords": [
     "BuckleScript"

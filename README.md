@@ -1,5 +1,5 @@
 # 99 problems solved in Reason with test
-Add Jest to test the reason implementation
+Add Jest to test the Reason implementations
 
 # Usage
 ## Build
@@ -23,8 +23,8 @@ npm run bt
 ```
 
 # Reference
-https://ocaml.org/learn/tutorials/99problems.html
-https://github.com/shrynx/99.re
+- https://ocaml.org/learn/tutorials/99problems.html
+- https://github.com/shrynx/99.re
 
 # Editor
 If you use `vscode`, Press `Windows + Shift + B` it will build automatically

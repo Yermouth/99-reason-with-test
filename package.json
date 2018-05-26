@@ -1,5 +1,5 @@
 {
-  "name": "reasonml",
+  "name": "99-reason-with-test",
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
@@ -9,14 +9,17 @@
     "test": "npm run build && jest --coverage && npm run coverage"
   },
   "keywords": [
-    "BuckleScript"
+    "BuckleScript",
+    ""
   ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.2",
     "bs-platform": "^3.1.4",
-    "jest": "^23.0.0"
+    "coveralls": "^3.0.1",
+    "jest": "^23.0.0",
+    "nyc": "^11.8.0"
   },
   "jest": {
     "testRegex": "_Test.bs.js"

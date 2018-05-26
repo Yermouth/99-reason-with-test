@@ -5,13 +5,9 @@ node_js:
 
 sudo: false
 
-branches:
-   only:
-   - master
-
 cache:
   directories:
     - "node_modules"
 
 script:
-  - npm bt
+  - npm run bt

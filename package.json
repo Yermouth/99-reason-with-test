@@ -5,8 +5,8 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "test": "jest",
-    "bt": "npm run build && npm run test"
+    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov | coveralls",
+    "test": "npm run build && jest --coverage && npm run coverage"
   },
   "keywords": [
     "BuckleScript"

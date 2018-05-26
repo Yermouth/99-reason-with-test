@@ -3,9 +3,9 @@ open Expect;
 
 let () =
   describe("Problem 1", () => {
-    test("Empty list", () =>
+    test("empty list", () =>
       expect(R01.last([])) |> toEqual(None));
 
-    test("List with elements", () =>
+    test("list with elements", () =>
       expect(R01.last(["a", "b", "c", "d", "e"])) |> toEqual(Some("e")));
   });

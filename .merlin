@@ -1,7 +1,7 @@
 ####{BSB GENERATED: NO EDIT
 B lib/bs
 FLG -open Reasonml
-FLG -ppx /usr/local/lib/node_modules/bs-platform/lib/bsppx.exe
+FLG -ppx /Users/sunnylai/Desktop/ocaml/99-problems-ocaml-reason/node_modules/bs-platform/lib/bsppx.exe
 S /Users/sunnylai/Desktop/ocaml/99-problems-ocaml-reason/node_modules/bs-platform/lib/ocaml
 B /Users/sunnylai/Desktop/ocaml/99-problems-ocaml-reason/node_modules/bs-platform/lib/ocaml
 FLG -nostdlib -no-alias-deps -color always

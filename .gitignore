@@ -3,3 +3,5 @@ lib
 src/*.bs.js
 .coveralls.yml
 coverage
+.bsb.lock
+.merlin

@@ -4,7 +4,10 @@ open Expect;
 
 let () =
   describe("Problem 17", () => {
-    test("length 0 list", () =>
+    test("length 0 list with N = 0", () =>
+      expect(R17.split([], 0)) |> toEqual(([], []))
+    );
+    test("length 0 list with N = 1", () =>
       expect(R17.split([], 1)) |> toEqual(([], []))
     );
     test("length 1 list with N = 1", () =>

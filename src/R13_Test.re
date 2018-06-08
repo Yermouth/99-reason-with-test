@@ -5,7 +5,7 @@ open Expect;
 open R13;
 
 let () =
-  describe("Problem 11", () => {
+  describe("Problem 13", () => {
     test("length 0 list", () =>
       expect(R13.encode([])) |> toEqual([])
     );

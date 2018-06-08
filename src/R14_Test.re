@@ -3,7 +3,7 @@ open Jest;
 open Expect;
 
 let () =
-  describe("Problem 11", () => {
+  describe("Problem 14", () => {
     test("length 0 list", () =>
       expect(R14.duplicate([])) |> toEqual([])
     );

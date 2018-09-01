@@ -16,6 +16,9 @@ let () =
     test("a > 1, b > 1", () =>
       expect(R32.gcd(5, 5)) |> toEqual(5)
     );
+    test("gcd = 1", () =>
+      expect(R32.gcd(49, 36)) |> toEqual(1)
+    );
     test("gcd = 2", () =>
       expect(R32.gcd(24, 14)) |> toEqual(2)
     );

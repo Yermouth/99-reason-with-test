@@ -7,6 +7,12 @@ let () =
     test("empty list, n = 0", () =>
       expect(R23.rand_select([], 0)) |> toEqual([])
     );
+    test("not found", () =>
+      expect(() =>
+        R23.rand_select([], 1)
+      )
+      |> Expect.toThrowException(Not_found)
+    );
     test("length one list, n = 1", () =>
       expect(R23.rand_select([0], 1)) |> toEqual([0])
     );
